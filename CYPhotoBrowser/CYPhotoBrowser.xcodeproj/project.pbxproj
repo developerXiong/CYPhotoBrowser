@@ -16,6 +16,9 @@
 		6ACDAFC41CBF76A20057F2F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ACDAFC21CBF76A20057F2F2 /* LaunchScreen.storyboard */; };
 		6ACDAFCF1CBF76A20057F2F2 /* CYPhotoBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDAFCE1CBF76A20057F2F2 /* CYPhotoBrowserTests.m */; };
 		6ACDAFDA1CBF76A20057F2F2 /* CYPhotoBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDAFD91CBF76A20057F2F2 /* CYPhotoBrowserUITests.m */; };
+		6ACDAFEE1CBF7CD40057F2F2 /* UIImageView+photoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDAFED1CBF7CD40057F2F2 /* UIImageView+photoBrowser.m */; };
+		6ACDAFF01CBF7D0E0057F2F2 /* 32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6ACDAFEF1CBF7D0E0057F2F2 /* 32.jpg */; };
+		6ACDAFF31CBF7D470057F2F2 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACDAFF21CBF7D470057F2F2 /* UIView+frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		6ACDAFD51CBF76A20057F2F2 /* CYPhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYPhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ACDAFD91CBF76A20057F2F2 /* CYPhotoBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYPhotoBrowserUITests.m; sourceTree = "<group>"; };
 		6ACDAFDB1CBF76A20057F2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ACDAFEC1CBF7CD40057F2F2 /* UIImageView+photoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+photoBrowser.h"; sourceTree = "<group>"; };
+		6ACDAFED1CBF7CD40057F2F2 /* UIImageView+photoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+photoBrowser.m"; sourceTree = "<group>"; };
+		6ACDAFEF1CBF7D0E0057F2F2 /* 32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 32.jpg; sourceTree = "<group>"; };
+		6ACDAFF11CBF7D470057F2F2 /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		6ACDAFF21CBF7D470057F2F2 /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,7 @@
 				6ACDAFB81CBF76A20057F2F2 /* ViewController.m */,
 				6ACDAFBA1CBF76A20057F2F2 /* Main.storyboard */,
 				6ACDAFC01CBF76A20057F2F2 /* Assets.xcassets */,
+				6ACDAFEF1CBF7D0E0057F2F2 /* 32.jpg */,
 				6ACDAFC21CBF76A20057F2F2 /* LaunchScreen.storyboard */,
 				6ACDAFC51CBF76A20057F2F2 /* Info.plist */,
 				6ACDAFBD1CBF76A20057F2F2 /* CYPhotoBrowser.xcdatamodeld */,
@@ -120,6 +129,10 @@
 		6ACDAFB11CBF76A20057F2F2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6ACDAFEC1CBF7CD40057F2F2 /* UIImageView+photoBrowser.h */,
+				6ACDAFED1CBF7CD40057F2F2 /* UIImageView+photoBrowser.m */,
+				6ACDAFF11CBF7D470057F2F2 /* UIView+frame.h */,
+				6ACDAFF21CBF7D470057F2F2 /* UIView+frame.m */,
 				6ACDAFB21CBF76A20057F2F2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -248,6 +261,7 @@
 			files = (
 				6ACDAFC41CBF76A20057F2F2 /* LaunchScreen.storyboard in Resources */,
 				6ACDAFC11CBF76A20057F2F2 /* Assets.xcassets in Resources */,
+				6ACDAFF01CBF7D0E0057F2F2 /* 32.jpg in Resources */,
 				6ACDAFBC1CBF76A20057F2F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,7 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ACDAFF31CBF7D470057F2F2 /* UIView+frame.m in Sources */,
 				6ACDAFB91CBF76A20057F2F2 /* ViewController.m in Sources */,
+				6ACDAFEE1CBF7CD40057F2F2 /* UIImageView+photoBrowser.m in Sources */,
 				6ACDAFBF1CBF76A20057F2F2 /* CYPhotoBrowser.xcdatamodeld in Sources */,
 				6ACDAFB61CBF76A20057F2F2 /* AppDelegate.m in Sources */,
 				6ACDAFB31CBF76A20057F2F2 /* main.m in Sources */,
@@ -500,6 +516,7 @@
 				6ACDAFE01CBF76A20057F2F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ACDAFE11CBF76A20057F2F2 /* Build configuration list for PBXNativeTarget "CYPhotoBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +525,7 @@
 				6ACDAFE31CBF76A20057F2F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ACDAFE41CBF76A20057F2F2 /* Build configuration list for PBXNativeTarget "CYPhotoBrowserUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +534,7 @@
 				6ACDAFE61CBF76A20057F2F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
